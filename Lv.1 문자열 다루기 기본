@@ -5,4 +5,9 @@ def solution(s):
 
 #통과함
 def solution(s):
+    return s.isdigit() and (len(s) == (4 or 6))
+
+
+#통과함
+def solution(s):
     return s.isdigit() and (len(s) == 4 or len(s) == 6)
