@@ -30,3 +30,9 @@ def solution(N, stages)
             answer[i] = 0
 
     return sorted(answer, key=lambda x: answer[x], reverse = 1)
+
+
+"""
+< reflection >
+collections 를 사용한 모범답안 없는지 찾아보고 코딩 분석해보기
+"""
