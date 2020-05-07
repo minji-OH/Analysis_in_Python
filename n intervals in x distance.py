@@ -13,3 +13,7 @@ def solution(x, n):
         answer.append(a)
 
     return answer
+
+"""
+answer.append(x*(i))로 한 줄을 더 줄일 수도 있음
+"""
