@@ -21,6 +21,7 @@ def solution(N, stages)
     answer = {}
     totalNum = len(stages)
 
+
     for i in range(1, N+1):
         if totalNum !=0:
             k = stages.count(i)        # i단계 스테이지 도전 중인 사용자 수 k
