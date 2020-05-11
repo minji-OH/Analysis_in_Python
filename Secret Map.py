@@ -16,11 +16,11 @@
 
 def solution(n, arr1, arr2):
     answer = []
-    for i, j in zip (arr1, arr2):
-        binary = bin(i|j)[2:]
-        binary = '0'*(n-len(binary)) + binary
-        binary = binary.replace('0', ' ')
-        binary = binary.replace('1', '#')
+    for i, j in zip (arr1, arr2):               #리스트에서 각각 항목 가져옴
+        binary = bin(i|j)[2:]                   #2진수로 변환 + 비트연산자 사용 + 슬라이싱
+        binary = '0'*(n-len(binary)) + binary   #사각형 변의 길이 n에 맞게 2진수의 자리수 맞춰줌
+        binary = binary.replace('0', ' ')       #0을 공백으로 변환
+        binary = binary.replace('1', '#')       #1을 #로 변환
         answer.append(binary)
     return answer
 
