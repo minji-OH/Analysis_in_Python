@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6e1fe-7ad2-4fda-b2bb-2b051e6b029c" name="Default Changelist" comment="기능개발" />
+    <list default="true" id="48a6e1fe-7ad2-4fda-b2bb-2b051e6b029c" name="Default Changelist" comment="행렬의 덧셈">
+      <change beforePath="$PROJECT_DIR$/Matrix Addition.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590456864637</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="행렬의 덧셈">
+      <created>1590625546394</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590625546394</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +295,8 @@
     <MESSAGE value="다트 게임" />
     <MESSAGE value="예산" />
     <MESSAGE value="기능개발" />
-    <option name="LAST_COMMIT_MESSAGE" value="기능개발" />
+    <MESSAGE value="행렬의 덧셈" />
+    <option name="LAST_COMMIT_MESSAGE" value="행렬의 덧셈" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1254" y="117" key="#Caesar_Cipher" timestamp="1590021104973">
@@ -297,10 +307,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588561110647" />
-    <state x="-1469" y="189" key="Vcs.Push.Dialog.v2" timestamp="1590456872980">
+    <state x="-1469" y="189" key="Vcs.Push.Dialog.v2" timestamp="1590625562695">
       <screen x="-1920" y="6" width="1920" height="1040" />
     </state>
-    <state x="-1469" y="189" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1590456872980" />
+    <state x="-1469" y="189" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1590625562695" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.6.1920.1040@0.0.1536.824" timestamp="1589844915785" />
     <state x="386" y="238" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588830040157" />
     <state x="440" y="199" key="git4idea.merge.GitPullDialog" timestamp="1588828388282">
