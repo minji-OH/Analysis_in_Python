@@ -10,17 +10,19 @@ def solution(prices):
     return answer
 
 #[오답]
+#결과값 [4, 3, 2, 1, 0] 나옴... 기대값은 [4, 3, 1, 1, 0]인데
 def solution2(prices):
     answer = []
     for i in range(len(prices)-1):
         for j in range(i, (len(prices)-1)):
             if prices[i] > prices[j]:
                 answer.append(len(prices)-1-j)
-                break
             else:
                 answer.append(len(prices)-1-i)
+            break
     answer.append(0)
     return answer
+
 
 
 #[시간초과]
