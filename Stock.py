@@ -10,8 +10,6 @@ def solution(prices):
     return answer
 
 #[오답]
-from collections import OrderedDict
-
 def solution2(prices):
     answer = []
     for i in range(len(prices)-1):
@@ -22,7 +20,7 @@ def solution2(prices):
             else:
                 answer.append(len(prices)-1-i)
     answer.append(0)
-    return list(OrderedDict.fromkeys(answer))
+    return answer
 
 
 #[시간초과]
