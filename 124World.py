@@ -10,6 +10,7 @@ def solution(n):
 
 ##### 2번째 제출 --> 예제에서 어떤 3의 배수는 통과하고
 #####              어떤 3의 배수는 통과 못함
+
 def solution(n):
     answer = ''
     if n%3 !=0:
@@ -25,6 +26,7 @@ def solution(n):
 
 
 ##### 3번째 제출 --> 예제는 통과하는데 채점은 실패 뜸
+
 def solution(n):
     answer = ''
     if n%3 !=0:
@@ -40,6 +42,7 @@ def solution(n):
 
 
 ##### 4번째 제출 --> 완성 !!!!
+
 def solution(n):
     answer = ''
     while n > 0:
