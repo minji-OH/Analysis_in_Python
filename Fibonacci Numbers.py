@@ -18,3 +18,10 @@ def solution(n):
         b = c
         c = a+b
     return (b%1234567)
+
+#### 풀이 3. 피드백을 받아서 더 간단하게 작성
+def solution(n):
+    a, b = 0, 1
+    for i in range(1, n):
+        a, b = b, a+b
+    return (b%1234567)
